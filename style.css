@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+    background: hsl(204, 43%, 93%);
+    
+}
+
+*{
+    transition: all 0.5s ease
+}
+
+span{
+    color: #fff;
+    font-size: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+
+h3{
+    color: #d9ffff
+}
+
+#join h2{
+    color: hsl(179, 62%, 43%)
+}
+
+#join h3{
+    color: hsl(71, 73%, 54%)
+}
+
+#fullCard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgb(195, 200, 205);
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom{
+    display: flex;
+    flex-grow: grow
+}
+
+#join{
+    background: white;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    padding: 30px;
+}
+
+#subscription{
+    background: #2bb3b1;
+    border-bottom-left-radius: 13px;
+    padding: 30px;
+    width: 50%;
+}
+
+#subscription p{
+    color: #7fe6eb
+}
+
+#subscription span{
+    color: #fff;
+    font-size: 16px;
+}
+
+#whyUs{
+    background: #4abebd;
+    border-bottom-right-radius: 13px;
+    padding: 30px;
+    width: 50%;
+}
+
+#whyUs h3{
+    color: #fff
+}
+
+#whyUs div{
+    color: #b6fbff
+}
+
+#signButton{
+    background: hsl(71, 73%, 54%);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px hsl(179, 58%, 31%);
+    margin-top: 10%
+}
+
+#signButton p{
+    color: #fff;
+    padding: 15px;
+}
+
+@media(max-width: 660px){
+    p{
+        font-size: 12px
+    }
+
+    #bottom{
+        flex-direction: column;
+    }
+
+    #fullCard{
+        width: 80%;
+        margin-top: 20%
+    }
+
+    #join{
+        width: 80%;
+    }
+
+    #subscription{
+        border-bottom-left-radius: 0px;
+    }
+    
+    #whyUs{
+        border-bottom-left-radius: 13px;
+    }
+
+    #subscription, #whyUs{
+        width: 80%
+    }
+}
+
